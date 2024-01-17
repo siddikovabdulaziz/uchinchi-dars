@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 70px;
+    background:#f1f1f1;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    gap: 40px;
+}
+.nav__collection{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav__link{
+    text-decoration: none;
+    color: #000;
+}
+.nav__link.active{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background: #ddd;
+}
+.home{
+    background: url(./13.\ Камни.jpg)no-repeat center/cover;
+}
+.about{
+    background: url(./13.\ Камни.jpg);
+}
